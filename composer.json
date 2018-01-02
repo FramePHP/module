@@ -1,0 +1,13 @@
+{
+    "name": "frame-php/module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hilkiah Makemo",
+            "email": "hilkiah.makemo@skywest.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
