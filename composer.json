@@ -2,6 +2,7 @@
     "name": "frame-php/module",
     "type": "library",
     "license": "MIT",
+    "description": "Module needed for user defined codes",
     "authors": [
         {
             "name": "Hilkiah Makemo",
