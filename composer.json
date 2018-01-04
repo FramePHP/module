@@ -11,6 +11,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-       "frame-php/framework": "dev"
+       "frame-php/framework": "dev-master"
     }
 }
