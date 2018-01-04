@@ -1,5 +1,5 @@
 {
-    "name": "frame-php/module",
+    "name": "frame-php/module-app",
     "type": "library",
     "license": "MIT",
     "description": "Module needed for user defined codes",
