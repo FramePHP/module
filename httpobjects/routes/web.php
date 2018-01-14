@@ -1,13 +1,14 @@
 <?php
+namespace App\Site\Controllers;
 
 return [
   "/" => [
-    'method' => 'GET', 'controller' => 'IndexController::getIndex'
+    'method' => 'GET', 'controller' => [IndexController::class, 'getIndex']
   ],
   "/home" => [
-    'method' => 'GET', 'controller' => HomeController::class
+    'method' => 'GET', 'controller' => [HomeController::class]
   ],
   "blog" => [
-    'method' => 'ANY', 'controller' => [BlogController::class, 'getPosts']
+    'method' => 'GET', 'controller' => [BlogController::class, 'getPosts']
     ]
 ];
