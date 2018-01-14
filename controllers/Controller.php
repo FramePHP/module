@@ -2,9 +2,9 @@
 
 namespace App\Site\Controllers;
 
-use FramePHP\App\Controller as BaseController;
+use FramePHP\App\Controller;
 
-class Controller extends BaseController
+class SiteController extends Controller
 {
 
 }
